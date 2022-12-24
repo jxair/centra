@@ -57,6 +57,10 @@ a {
     margin-bottom: 4rem;
 }
 
+.mb-44 {
+    margin-bottom: 4.4rem;
+}
+
 .mb-120 {
     margin-bottom: 12rem;
 }
@@ -113,8 +117,12 @@ a {
     padding-top: 12rem;
 }
 
-.pt-170 {
-    padding-top: 17rem;
+.pt-140 {
+    padding-top: 14rem;
+}
+
+.pt-190 {
+    padding-top: 19rem;
 }
 
 .title {
@@ -348,6 +356,7 @@ a {
 }
 
 .mainbutton {
+    display: inline-block;
     font-family: 'Inter';
     cursor: pointer;
     background-color: #000;
@@ -571,6 +580,7 @@ a {
         height: 15px;
         width: min-content;
         object-fit: contain;
+        max-width: 489px;
     }
 
     &__title {
@@ -1318,6 +1328,14 @@ label {
         line-height: 3.2rem;
         text-decoration: none;
         margin: 0 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer {
+        &__list {
+            margin-bottom: 25rem;
+        }
     }
 }
 
